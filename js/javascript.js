@@ -15,4 +15,4 @@ else {
 
 let element = document.getElementById('htmlOutput');
 
-element.innerHTML = `il prezzo del tuo biglietto è ${(prezzo).toFixed(2)}`;
+element.innerHTML = `il prezzo del tuo biglietto è ${(prezzo).toFixed(2)} &euro;`;
