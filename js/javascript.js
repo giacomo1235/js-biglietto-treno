@@ -11,8 +11,8 @@ else if (userAge > 65) {
 }
 else {
    prezzo = userKm * 0.21;
-}
+} 
 
 let element = document.getElementById('htmlOutput');
 
-element.innerHTML = `il prezzo del tuo biglietto è ${prezzo}`;
+element.innerHTML = `il prezzo del tuo biglietto è ${(prezzo).toFixed(2)}`;
